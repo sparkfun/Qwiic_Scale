@@ -1583,10 +1583,10 @@ Holes are offset 0.005" from center to hold pins in place during soldering.
 <text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 <package name="1X04_SPRING_TERMINAL">
-<wire x1="11.72" y1="-5.34" x2="-0.98" y2="-5.34" width="0.2032" layer="21"/>
+<wire x1="11.6" y1="-5.34" x2="-0.98" y2="-5.34" width="0.2032" layer="21"/>
 <wire x1="-0.98" y1="-5.34" x2="-0.98" y2="4.9" width="0.2032" layer="21"/>
-<wire x1="-0.98" y1="4.9" x2="11.72" y2="4.9" width="0.2032" layer="21"/>
-<wire x1="11.72" y1="4.9" x2="11.72" y2="-5.34" width="0.2032" layer="21"/>
+<wire x1="-0.98" y1="4.9" x2="11.6" y2="4.9" width="0.2032" layer="21"/>
+<wire x1="11.6" y1="4.9" x2="11.6" y2="-5.34" width="0.2032" layer="21"/>
 <pad name="1" x="7.62" y="2.54" drill="1.1" diameter="1.8" rot="R270"/>
 <pad name="5" x="7.62" y="-2.54" drill="1.1" diameter="1.8" rot="R270"/>
 <pad name="2" x="5.08" y="2.54" drill="1.1" diameter="1.8" rot="R270"/>
@@ -1601,6 +1601,10 @@ Holes are offset 0.005" from center to hold pins in place during soldering.
 <pad name="8" x="0" y="-2.54" drill="1.1" diameter="1.8" rot="R270"/>
 <text x="1.27" y="0" size="0.762" layer="25">&gt;Name</text>
 <text x="1.27" y="-1.27" size="0.762" layer="27">&gt;Value</text>
+<rectangle x1="-0.78" y1="3.3" x2="0.9" y2="4.903" layer="21" rot="R180"/>
+<rectangle x1="1.76" y1="3.3" x2="3.44" y2="4.903" layer="21" rot="R180"/>
+<rectangle x1="4.3" y1="3.3" x2="5.98" y2="4.903" layer="21" rot="R180"/>
+<rectangle x1="6.84" y1="3.3" x2="8.52" y2="4.903" layer="21" rot="R180"/>
 </package>
 <package name="1X05">
 <description>&lt;h3&gt;Plated Through Hole - 5 Pin&lt;/h3&gt;
@@ -18820,7 +18824,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R10" library="SparkFun-Resistors" deviceset="47OHM" device="-0603-1/10W-1%" value="47"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="U$73" library="SparkFun-PowerSymbols" deviceset="VDDA" device=""/>
-<part name="J1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value=""/>
+<part name="J1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value="CAP"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 <part name="U$74" library="SparkFun-PowerSymbols" deviceset="VDDA" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -18855,6 +18859,7 @@ Cell Colors:</text>
 <wire x1="59.436" y1="125.73" x2="63.5" y2="125.73" width="0.2032" layer="97"/>
 <text x="101.6" y="86.36" size="1.778" layer="97" font="vector" align="center">Cut jumper to remove
 capacitor from B channel</text>
+<text x="172.72" y="10.16" size="2.54" layer="97">N. Seidle</text>
 </plain>
 <instances>
 <instance part="JP31" gate="G$1" x="246.38" y="30.48" smashed="yes"/>
