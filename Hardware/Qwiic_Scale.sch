@@ -18842,21 +18842,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="180.34" y="93.98" size="1.778" layer="97" font="vector" align="center">7-bit unshifted I2C address: 0x2A</text>
 <text x="199.898" y="152.4" size="1.778" layer="97" font="vector">Cut jumper to remove
 resistors from I2C bus</text>
-<text x="48.26" y="121.92" size="1.778" layer="97" font="vector">E+</text>
-<text x="48.26" y="119.38" size="1.778" layer="97" font="vector">E-</text>
-<text x="48.26" y="116.84" size="1.778" layer="97" font="vector">A-</text>
-<text x="48.26" y="114.3" size="1.778" layer="97" font="vector">A+</text>
-<text x="30.48" y="121.92" size="1.778" layer="97" font="vector">Red</text>
-<text x="30.48" y="119.38" size="1.778" layer="97" font="vector">Black</text>
-<text x="30.48" y="116.84" size="1.778" layer="97" font="vector">White</text>
-<text x="20.32" y="114.3" size="1.778" layer="97" font="vector">Green or Blue</text>
-<text x="23.114" y="128.016" size="1.778" layer="97" font="vector">Common Load
+<text x="48.26" y="127" size="1.778" layer="97" font="vector">E+</text>
+<text x="48.26" y="124.46" size="1.778" layer="97" font="vector">E-</text>
+<text x="48.26" y="121.92" size="1.778" layer="97" font="vector">A-</text>
+<text x="48.26" y="119.38" size="1.778" layer="97" font="vector">A+</text>
+<text x="30.48" y="127" size="1.778" layer="97" font="vector">Red</text>
+<text x="30.48" y="124.46" size="1.778" layer="97" font="vector">Black</text>
+<text x="30.48" y="121.92" size="1.778" layer="97" font="vector">White</text>
+<text x="20.32" y="119.38" size="1.778" layer="97" font="vector">Green or Blue</text>
+<text x="23.114" y="133.096" size="1.778" layer="97" font="vector">Common Load
 Cell Colors:</text>
-<text x="43.18" y="111.76" size="1.778" layer="97" font="vector">Shield</text>
-<text x="30.48" y="111.76" size="1.778" layer="97" font="vector">Yellow</text>
-<wire x1="41.656" y1="124.46" x2="41.656" y2="110.49" width="0.2032" layer="97"/>
-<wire x1="41.656" y1="124.46" x2="45.72" y2="124.46" width="0.2032" layer="97"/>
-<wire x1="41.656" y1="110.49" x2="45.72" y2="110.49" width="0.2032" layer="97"/>
+<text x="43.18" y="116.84" size="1.778" layer="97" font="vector">Shield</text>
+<text x="30.48" y="116.84" size="1.778" layer="97" font="vector">Yellow</text>
+<wire x1="41.656" y1="129.54" x2="41.656" y2="115.57" width="0.2032" layer="97"/>
+<wire x1="41.656" y1="129.54" x2="45.72" y2="129.54" width="0.2032" layer="97"/>
+<wire x1="41.656" y1="115.57" x2="45.72" y2="115.57" width="0.2032" layer="97"/>
 <text x="137.16" y="88.9" size="1.778" layer="97" font="vector" align="center">Cut jumper to remove
 capacitor from B channel</text>
 <text x="172.72" y="10.16" size="2.54" layer="97">N. Seidle</text>
@@ -18930,16 +18930,16 @@ than 3.3V onto a Qwiic bus</text>
 <attribute name="VALUE" x="127" y="48.514" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="162.56" y="35.56" smashed="yes"/>
-<instance part="GND9" gate="1" x="66.04" y="106.68" smashed="yes">
-<attribute name="VALUE" x="63.5" y="104.14" size="1.778" layer="96" font="vector"/>
+<instance part="GND9" gate="1" x="66.04" y="111.76" smashed="yes">
+<attribute name="VALUE" x="63.5" y="109.22" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="JP2" gate="G$1" x="55.88" y="86.36" smashed="yes">
-<attribute name="VALUE" x="53.34" y="81.28" size="1.778" layer="96"/>
-<attribute name="NAME" x="55.88" y="92.202" size="1.778" layer="95" font="vector"/>
+<instance part="JP2" gate="G$1" x="55.88" y="91.44" smashed="yes">
+<attribute name="VALUE" x="53.34" y="86.36" size="1.778" layer="96"/>
+<attribute name="NAME" x="55.88" y="97.282" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="JP1" gate="G$1" x="55.88" y="116.84" smashed="yes">
-<attribute name="VALUE" x="53.34" y="106.68" size="1.778" layer="96"/>
-<attribute name="NAME" x="53.34" y="125.222" size="1.778" layer="95" font="vector"/>
+<instance part="JP1" gate="G$1" x="55.88" y="121.92" smashed="yes">
+<attribute name="VALUE" x="53.34" y="111.76" size="1.778" layer="96"/>
+<attribute name="NAME" x="53.34" y="130.302" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="U1" gate="U1" x="180.34" y="119.38" smashed="yes">
 <attribute name="NAME" x="170.18" y="130.302" size="1.778" layer="95" font="vector"/>
@@ -19007,8 +19007,8 @@ than 3.3V onto a Qwiic bus</text>
 <attribute name="NAME" x="125.476" y="38.1" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="128.524" y="38.1" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="U$73" gate="G$1" x="66.04" y="124.46" smashed="yes">
-<attribute name="VALUE" x="66.04" y="127.254" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="U$73" gate="G$1" x="66.04" y="129.54" smashed="yes">
+<attribute name="VALUE" x="66.04" y="132.334" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="J1" gate="G$1" x="139.7" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="137.414" y="110.236" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -19021,11 +19021,11 @@ than 3.3V onto a Qwiic bus</text>
 <instance part="U$74" gate="G$1" x="66.04" y="17.78" smashed="yes">
 <attribute name="VALUE" x="66.04" y="20.574" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND1" gate="1" x="66.04" y="137.16" smashed="yes">
-<attribute name="VALUE" x="66.04" y="136.906" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND1" gate="1" x="66.04" y="142.24" smashed="yes">
+<attribute name="VALUE" x="66.04" y="141.986" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="U$10" gate="G$1" x="66.04" y="152.4" smashed="yes">
-<attribute name="VALUE" x="66.04" y="155.194" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="U$10" gate="G$1" x="66.04" y="157.48" smashed="yes">
+<attribute name="VALUE" x="66.04" y="160.274" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="JP3" gate="G$1" x="215.9" y="137.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="216.916" y="139.192" size="1.778" layer="95" font="vector"/>
@@ -19042,9 +19042,9 @@ than 3.3V onto a Qwiic bus</text>
 <attribute name="NAME" x="221.996" y="129.54" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="225.044" y="129.54" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="J7" gate="J1" x="58.42" y="147.32" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="52.07" y="157.226" size="1.778" layer="96" font="vector" rot="MR270"/>
-<attribute name="NAME" x="53.34" y="139.192" size="1.778" layer="95" font="vector" rot="MR180"/>
+<instance part="J7" gate="J1" x="58.42" y="152.4" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="52.07" y="162.306" size="1.778" layer="96" font="vector" rot="MR270"/>
+<attribute name="NAME" x="53.34" y="144.272" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -19111,14 +19111,14 @@ than 3.3V onto a Qwiic bus</text>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="119.38" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="119.38" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="124.46" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="124.46" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="JP1" gate="G$1" pin="4"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="111.76" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="111.76" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
-<junction x="66.04" y="111.76"/>
+<wire x1="66.04" y1="116.84" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="116.84" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
+<junction x="66.04" y="116.84"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="DVSS"/>
@@ -19152,8 +19152,8 @@ than 3.3V onto a Qwiic bus</text>
 <wire x1="160.02" y1="101.6" x2="160.02" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="147.32" x2="66.04" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="147.32" x2="66.04" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="152.4" x2="66.04" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="152.4" x2="66.04" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="J7" gate="J1" pin="2"/>
 </segment>
@@ -19243,8 +19243,8 @@ than 3.3V onto a Qwiic bus</text>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="91" style="longdash"/>
-<label x="66.04" y="86.36" size="1.27" layer="95" xref="yes"/>
+<wire x1="63.5" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91" style="longdash"/>
+<label x="66.04" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="B-" class="0">
@@ -19259,8 +19259,8 @@ than 3.3V onto a Qwiic bus</text>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="88.9" x2="66.04" y2="88.9" width="0.1524" layer="91"/>
-<label x="66.04" y="88.9" size="1.27" layer="95" xref="yes"/>
+<wire x1="63.5" y1="93.98" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
+<label x="66.04" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VDDA" class="0">
@@ -19288,8 +19288,8 @@ than 3.3V onto a Qwiic bus</text>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="5"/>
-<wire x1="63.5" y1="121.92" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="121.92" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="127" x2="66.04" y2="127" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="127" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U$73" gate="G$1" pin="VDDA"/>
 </segment>
 <segment>
@@ -19299,8 +19299,8 @@ than 3.3V onto a Qwiic bus</text>
 <pinref part="U$74" gate="G$1" pin="VDDA"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="149.86" x2="66.04" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="149.86" x2="66.04" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="154.94" x2="66.04" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="154.94" x2="66.04" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="U$10" gate="G$1" pin="VDDA"/>
 <pinref part="J7" gate="J1" pin="1"/>
 </segment>
@@ -19340,12 +19340,12 @@ than 3.3V onto a Qwiic bus</text>
 <net name="A-" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="63.5" y1="116.84" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
-<label x="68.58" y="116.84" size="1.27" layer="95" xref="yes"/>
+<wire x1="63.5" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
+<label x="68.58" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="144.78" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
-<label x="68.58" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="63.5" y1="149.86" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
+<label x="68.58" y="149.86" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J7" gate="J1" pin="3"/>
 </segment>
 <segment>
@@ -19361,14 +19361,14 @@ than 3.3V onto a Qwiic bus</text>
 <label x="134.62" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="142.24" x2="68.58" y2="142.24" width="0.1524" layer="91"/>
-<label x="68.58" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="63.5" y1="147.32" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
+<label x="68.58" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J7" gate="J1" pin="4"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
-<label x="68.58" y="114.3" size="1.27" layer="95" xref="yes"/>
+<wire x1="63.5" y1="119.38" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
+<label x="68.58" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
