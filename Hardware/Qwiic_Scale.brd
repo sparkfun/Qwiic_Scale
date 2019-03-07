@@ -5909,8 +5909,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$26" library="Qwiic_Logo" package="QWIIC_8MM" value="QWIIC_LOGO_8MM" x="18.161" y="25.781" smashed="yes" rot="MR90"/>
 <element name="U$14" library="buzzard_labels (68)" package="QWIIC2" value="" x="17.399" y="10.414" smashed="yes" rot="MR0"/>
 <element name="U$17" library="buzzard_labels (68)" package="SCALE3" value="" x="17.399" y="8.128" smashed="yes" rot="MR0"/>
-<element name="U$21" library="buzzard_labels (62)" package="INT0" value="" x="16.51" y="1.524" smashed="yes" rot="R90"/>
-<element name="U$15" library="buzzard_labels (62)" package="INT0" value="" x="16.51" y="1.524" smashed="yes" rot="MR90"/>
+<element name="U$21" library="buzzard_labels (62)" package="INT0" value="" x="16.51" y="1.651" smashed="yes" rot="R90"/>
+<element name="U$15" library="buzzard_labels (62)" package="INT0" value="" x="16.51" y="1.651" smashed="yes" rot="MR90"/>
 </elements>
 <signals>
 <signal name="3.3V" class="2">
