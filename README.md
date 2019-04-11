@@ -26,7 +26,7 @@ Documentation
 --------------
 * **[Qwiic Scale Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-scale-hookup-guide)** - Hookup guide for the Qwiic Scale
 * **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
-* **[Arduino Library](https://github.com/sparkfun/SparkFun_NAU7802_Arduino_Library)**
+* **[Arduino Library](https://github.com/sparkfun/SparkFun_Qwiic_Scale_NAU7802_Arduino_Library)**
 
 License Information
 -------------------
